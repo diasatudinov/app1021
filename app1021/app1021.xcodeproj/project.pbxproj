@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B514F2D2CD26990004A34A6 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F2C2CD26990004A34A6 /* NavigationView.swift */; };
+		2B514F2F2CD26D3A004A34A6 /* MotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F2E2CD26D3A004A34A6 /* MotoView.swift */; };
+		2B514F312CD270DC004A34A6 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F302CD270DC004A34A6 /* Motorcycle.swift */; };
+		2B514F332CD271E0004A34A6 /* MotorcycleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F322CD271E0004A34A6 /* MotorcycleViewModel.swift */; };
+		2B514F372CD27717004A34A6 /* NewMotorcycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F362CD27717004A34A6 /* NewMotorcycleView.swift */; };
+		2B514F3A2CD27CBD004A34A6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F392CD27CBD004A34A6 /* ImagePicker.swift */; };
+		2B514F3E2CD2871A004A34A6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F3D2CD2871A004A34A6 /* SettingsView.swift */; };
 		2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6712CCFAD3F00B39110 /* app1021App.swift */; };
 		2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6732CCFAD3F00B39110 /* ContentView.swift */; };
 		2BA3F6762CCFAD4100B39110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3F6752CCFAD4100B39110 /* Assets.xcassets */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B514F2C2CD26990004A34A6 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		2B514F2E2CD26D3A004A34A6 /* MotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoView.swift; sourceTree = "<group>"; };
+		2B514F302CD270DC004A34A6 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		2B514F322CD271E0004A34A6 /* MotorcycleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleViewModel.swift; sourceTree = "<group>"; };
+		2B514F362CD27717004A34A6 /* NewMotorcycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMotorcycleView.swift; sourceTree = "<group>"; };
+		2B514F392CD27CBD004A34A6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2B514F3D2CD2871A004A34A6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2BA3F66E2CCFAD3F00B39110 /* app1021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA3F6712CCFAD3F00B39110 /* app1021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app1021App.swift; sourceTree = "<group>"; };
 		2BA3F6732CCFAD3F00B39110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +57,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B514F292CD268C6004A34A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F322CD271E0004A34A6 /* MotorcycleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2B514F2A2CD268CC004A34A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F3C2CD2870C004A34A6 /* SettingsView */,
+				2B514F2C2CD26990004A34A6 /* NavigationView.swift */,
+				2B514F3B2CD28171004A34A6 /* MotoView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B514F2B2CD268D3004A34A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F302CD270DC004A34A6 /* Motorcycle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B514F382CD27CAE004A34A6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F392CD27CBD004A34A6 /* ImagePicker.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2B514F3B2CD28171004A34A6 /* MotoView */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F362CD27717004A34A6 /* NewMotorcycleView.swift */,
+				2B514F2E2CD26D3A004A34A6 /* MotoView.swift */,
+			);
+			path = MotoView;
+			sourceTree = "<group>";
+		};
+		2B514F3C2CD2870C004A34A6 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F3D2CD2871A004A34A6 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
 		2BA3F6652CCFAD3F00B39110 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +167,10 @@
 		2BA3F6812CCFAEB200B39110 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				2B514F382CD27CAE004A34A6 /* Extension */,
+				2B514F2B2CD268D3004A34A6 /* Model */,
+				2B514F2A2CD268CC004A34A6 /* View */,
+				2B514F292CD268C6004A34A6 /* ViewModel */,
 				2BA3F68D2CCFC3D800B39110 /* TabView */,
 				2BA3F6832CCFAEC700B39110 /* Onboarding */,
 			);
@@ -203,12 +272,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B514F2D2CD26990004A34A6 /* NavigationView.swift in Sources */,
 				2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */,
+				2B514F372CD27717004A34A6 /* NewMotorcycleView.swift in Sources */,
 				2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */,
+				2B514F2F2CD26D3A004A34A6 /* MotoView.swift in Sources */,
+				2B514F312CD270DC004A34A6 /* Motorcycle.swift in Sources */,
 				2BA3F68F2CCFC3E400B39110 /* TabUIView.swift in Sources */,
 				2BA3F6892CCFAEF400B39110 /* LoaderView.swift in Sources */,
 				2BA3F6852CCFAEDF00B39110 /* ReOnboardingUIView.swift in Sources */,
+				2B514F3A2CD27CBD004A34A6 /* ImagePicker.swift in Sources */,
 				2BA3F6872CCFAEEB00B39110 /* UsOnboardingUIView.swift in Sources */,
+				2B514F332CD271E0004A34A6 /* MotorcycleViewModel.swift in Sources */,
+				2B514F3E2CD2871A004A34A6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
