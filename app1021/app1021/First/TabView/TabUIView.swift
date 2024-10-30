@@ -10,7 +10,7 @@ import SwiftUI
 struct TabUIView: View {
     @State var selectedTab = 0
     private let tabs = ["Home", "Attractions", "Memories"]
-    
+    @StateObject var motoVM = MotorcycleViewModel()
 //    @ObservedObject var collectionVM = CollectionViewModel()
 //    @ObservedObject var settingsVM = SettingsViewModel()
     var body: some View {
@@ -18,7 +18,7 @@ struct TabUIView: View {
             
             switch selectedTab {
             case 0:
-                Text("1")
+                MotoView(motoVM: motoVM)
                 //HomeUIView(viewModel: collectionVM)
             case 1:
                 Text("2")

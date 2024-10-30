@@ -23,7 +23,6 @@ struct LoaderView: View {
                 
                 VStack {
                     Spacer()
-                    Image("logo923")
                     
                     Spacer()
                     Spacer()
