@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class MotorcycleViewModel: ObservableObject {
+    @Published var motorcycle: Motorcycle?
+    
+    func addMoto(_ moto: Motorcycle) {
+        motorcycle = moto
+    }
+}
