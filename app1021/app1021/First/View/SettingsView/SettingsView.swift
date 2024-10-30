@@ -6,10 +6,72 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct SettingsView: View {
+    
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            
+            VStack(spacing: 0) {
+                NavigationBarView(leftButton: {presentationMode.wrappedValue.dismiss()}, title: "Settings").padding(.bottom, 25)
+                
+                VStack(spacing: 16) {
+                    Button {
+                        rateApp()
+                    } label: {
+                        ButtonCell(title: "Rate App")
+                    }
+                    
+                    Button {
+                        shareApp()
+                    } label: {
+                        ButtonCell(title: "Share App")
+                    }
+                    
+                    Button {
+                        openUsagePolicy()
+                    } label: {
+                        ButtonCell(title: "Usage Policy")
+                    }
+                }
+                
+                Spacer()
+            }.padding(.horizontal)
+        }
+    }
+    
+    @ViewBuilder func ButtonCell(title: String) -> some View {
+        HStack(spacing: 40) {
+            
+            Text(title)
+                .foregroundColor(.secondaryBg)
+            
+            
+            
+        }.padding(12).frame(maxWidth: .infinity).background(Color.yellowBtn).cornerRadius(13)
+    }
+    
+    func shareApp() {
+        guard let url = URL(string: "https://itunes.apple.com/app/id6737277432") else { return }
+        let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let rootViewController = windowScene.windows.first?.rootViewController {
+            rootViewController.present(activityVC, animated: true, completion: nil)
+        }
+    }
+    
+    func rateApp() {
+        SKStoreReviewController.requestReview()
+    }
+    
+    func openUsagePolicy() {
+        guard let url = URL(string: "https://www.termsfeed.com/live/bea1d41e-d427-40cf-8ad3-e4cb19caca32") else { return }
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
 }
 
