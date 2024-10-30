@@ -36,6 +36,7 @@ struct NewMotorcycleView: View {
                             .frame(height: 140)
                             .clipShape(RoundedRectangle(cornerRadius: 9))
                             .padding(.bottom)
+                            .allowsHitTesting(false)
                     } else {
                         
                         ZStack {
@@ -89,13 +90,13 @@ struct NewMotorcycleView: View {
                     ZStack {
                         Rectangle()
                             .cornerRadius(13)
-                            .foregroundColor(.secondaryBg)
+                            .foregroundColor(!brand.isEmpty && !model.isEmpty && !engine.isEmpty && !volume.isEmpty && !mileag.isEmpty && !year.isEmpty && !cylinde.isEmpty ? .yellowBtn : .secondaryBg)
                         
                         HStack(spacing: 25) {
                             
                             Text("Save")
                                 .font(.system(size: 17, weight: .regular))
-                                .foregroundColor(.yellowBtn)
+                                .foregroundColor(!brand.isEmpty && !model.isEmpty && !engine.isEmpty && !volume.isEmpty && !mileag.isEmpty && !year.isEmpty && !cylinde.isEmpty ? .secondaryBg : .white.opacity(0.16))
                                 .lineSpacing(10)
                         }
                     }.frame(height: 45)
