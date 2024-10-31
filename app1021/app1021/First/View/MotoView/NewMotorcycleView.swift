@@ -117,7 +117,7 @@ struct NewMotorcycleView: View {
         }
     }
     
-    //MARK: -CloseEditHomeAlert View
+    //MARK: -FieldCell View
     @ViewBuilder func FieldCell(name: String, bindText: Binding<String>, type: UIKeyboardType) -> some View {
         HStack(spacing: 40) {
             

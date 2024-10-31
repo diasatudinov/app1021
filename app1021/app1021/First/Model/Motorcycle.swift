@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Motorcycle {
+struct Motorcycle: Codable {
     
     var imageData: Data?
     var brand: String

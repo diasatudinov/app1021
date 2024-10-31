@@ -11,6 +11,7 @@ struct TabUIView: View {
     @State var selectedTab = 0
     private let tabs = ["Home", "Attractions", "Memories"]
     @StateObject var motoVM = MotorcycleViewModel()
+    @StateObject var repairVM = RepairsViewModel()
 //    @ObservedObject var collectionVM = CollectionViewModel()
 //    @ObservedObject var settingsVM = SettingsViewModel()
     var body: some View {
@@ -21,7 +22,7 @@ struct TabUIView: View {
                 MotoView(motoVM: motoVM)
                 //HomeUIView(viewModel: collectionVM)
             case 1:
-                Text("2")
+                RepairView(repairVM: repairVM)
                 //MyCollectionUIView(viewModel: collectionVM)
             case 2:
                 Text("3")

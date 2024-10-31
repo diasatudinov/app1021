@@ -14,6 +14,12 @@
 		2B514F372CD27717004A34A6 /* NewMotorcycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F362CD27717004A34A6 /* NewMotorcycleView.swift */; };
 		2B514F3A2CD27CBD004A34A6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F392CD27CBD004A34A6 /* ImagePicker.swift */; };
 		2B514F3E2CD2871A004A34A6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F3D2CD2871A004A34A6 /* SettingsView.swift */; };
+		2B514F412CD39EE8004A34A6 /* RepairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F402CD39EE8004A34A6 /* RepairView.swift */; };
+		2B514F432CD39FE7004A34A6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F422CD39FE7004A34A6 /* ContactsView.swift */; };
+		2B514F452CD3A1B1004A34A6 /* RepairsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F442CD3A1B1004A34A6 /* RepairsViewModel.swift */; };
+		2B514F472CD3A1CF004A34A6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F462CD3A1CF004A34A6 /* Contact.swift */; };
+		2B514F492CD3A608004A34A6 /* AddContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F482CD3A608004A34A6 /* AddContacts.swift */; };
+		2B514F4C2CD3AEE8004A34A6 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */; };
 		2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6712CCFAD3F00B39110 /* app1021App.swift */; };
 		2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6732CCFAD3F00B39110 /* ContentView.swift */; };
 		2BA3F6762CCFAD4100B39110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3F6752CCFAD4100B39110 /* Assets.xcassets */; };
@@ -33,6 +39,12 @@
 		2B514F362CD27717004A34A6 /* NewMotorcycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMotorcycleView.swift; sourceTree = "<group>"; };
 		2B514F392CD27CBD004A34A6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		2B514F3D2CD2871A004A34A6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2B514F402CD39EE8004A34A6 /* RepairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairView.swift; sourceTree = "<group>"; };
+		2B514F422CD39FE7004A34A6 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		2B514F442CD3A1B1004A34A6 /* RepairsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairsViewModel.swift; sourceTree = "<group>"; };
+		2B514F462CD3A1CF004A34A6 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		2B514F482CD3A608004A34A6 /* AddContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContacts.swift; sourceTree = "<group>"; };
+		2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		2BA3F66E2CCFAD3F00B39110 /* app1021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA3F6712CCFAD3F00B39110 /* app1021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app1021App.swift; sourceTree = "<group>"; };
 		2BA3F6732CCFAD3F00B39110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				2B514F322CD271E0004A34A6 /* MotorcycleViewModel.swift */,
+				2B514F442CD3A1B1004A34A6 /* RepairsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -68,6 +81,7 @@
 		2B514F2A2CD268CC004A34A6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B514F3F2CD39ED3004A34A6 /* Repair */,
 				2B514F3C2CD2870C004A34A6 /* SettingsView */,
 				2B514F2C2CD26990004A34A6 /* NavigationView.swift */,
 				2B514F3B2CD28171004A34A6 /* MotoView */,
@@ -79,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				2B514F302CD270DC004A34A6 /* Motorcycle.swift */,
+				2B514F462CD3A1CF004A34A6 /* Contact.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,6 +121,17 @@
 				2B514F3D2CD2871A004A34A6 /* SettingsView.swift */,
 			);
 			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		2B514F3F2CD39ED3004A34A6 /* Repair */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F402CD39EE8004A34A6 /* RepairView.swift */,
+				2B514F422CD39FE7004A34A6 /* ContactsView.swift */,
+				2B514F482CD3A608004A34A6 /* AddContacts.swift */,
+				2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */,
+			);
+			path = Repair;
 			sourceTree = "<group>";
 		};
 		2BA3F6652CCFAD3F00B39110 = {
@@ -275,16 +301,22 @@
 				2B514F2D2CD26990004A34A6 /* NavigationView.swift in Sources */,
 				2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */,
 				2B514F372CD27717004A34A6 /* NewMotorcycleView.swift in Sources */,
+				2B514F452CD3A1B1004A34A6 /* RepairsViewModel.swift in Sources */,
+				2B514F432CD39FE7004A34A6 /* ContactsView.swift in Sources */,
 				2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */,
 				2B514F2F2CD26D3A004A34A6 /* MotoView.swift in Sources */,
+				2B514F412CD39EE8004A34A6 /* RepairView.swift in Sources */,
 				2B514F312CD270DC004A34A6 /* Motorcycle.swift in Sources */,
+				2B514F4C2CD3AEE8004A34A6 /* ContactCell.swift in Sources */,
 				2BA3F68F2CCFC3E400B39110 /* TabUIView.swift in Sources */,
+				2B514F492CD3A608004A34A6 /* AddContacts.swift in Sources */,
 				2BA3F6892CCFAEF400B39110 /* LoaderView.swift in Sources */,
 				2BA3F6852CCFAEDF00B39110 /* ReOnboardingUIView.swift in Sources */,
 				2B514F3A2CD27CBD004A34A6 /* ImagePicker.swift in Sources */,
 				2BA3F6872CCFAEEB00B39110 /* UsOnboardingUIView.swift in Sources */,
 				2B514F332CD271E0004A34A6 /* MotorcycleViewModel.swift in Sources */,
 				2B514F3E2CD2871A004A34A6 /* SettingsView.swift in Sources */,
+				2B514F472CD3A1CF004A34A6 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
