@@ -12,6 +12,7 @@ struct TabUIView: View {
     private let tabs = ["Home", "Attractions", "Memories"]
     @StateObject var motoVM = MotorcycleViewModel()
     @StateObject var repairVM = RepairsViewModel()
+    @StateObject var tripVM = TripsViewModel()
 //    @ObservedObject var collectionVM = CollectionViewModel()
 //    @ObservedObject var settingsVM = SettingsViewModel()
     var body: some View {
@@ -20,13 +21,10 @@ struct TabUIView: View {
             switch selectedTab {
             case 0:
                 MotoView(motoVM: motoVM)
-                //HomeUIView(viewModel: collectionVM)
             case 1:
                 RepairView(repairVM: repairVM)
-                //MyCollectionUIView(viewModel: collectionVM)
             case 2:
-                Text("3")
-                //PlannedUIView(viewModel: collectionVM)
+                TripsView(tripVM: tripVM)
             default:
                 Text("default")
             }

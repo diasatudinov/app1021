@@ -20,6 +20,21 @@
 		2B514F472CD3A1CF004A34A6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F462CD3A1CF004A34A6 /* Contact.swift */; };
 		2B514F492CD3A608004A34A6 /* AddContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F482CD3A608004A34A6 /* AddContacts.swift */; };
 		2B514F4C2CD3AEE8004A34A6 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */; };
+		2B514F5D2CD8A2FD004A34A6 /* MaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F5C2CD8A2FD004A34A6 /* MaintenanceView.swift */; };
+		2B514F642CDA2BE6004A34A6 /* MaintenanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F632CDA2BE6004A34A6 /* MaintenanceViewModel.swift */; };
+		2B514F662CDA2C2A004A34A6 /* Accessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F652CDA2C2A004A34A6 /* Accessory.swift */; };
+		2B514F692CDA3D0D004A34A6 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F682CDA3D0D004A34A6 /* RemindersView.swift */; };
+		2B514F6B2CDA3D6E004A34A6 /* RemindersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F6A2CDA3D6E004A34A6 /* RemindersViewModel.swift */; };
+		2B514F6D2CDA3D95004A34A6 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F6C2CDA3D95004A34A6 /* Reminder.swift */; };
+		2B514F6F2CDA429E004A34A6 /* RemainderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B514F6E2CDA429E004A34A6 /* RemainderCell.swift */; };
+		2B84653D2CDCBC72005EAB30 /* NewRemainderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84653C2CDCBC72005EAB30 /* NewRemainderView.swift */; };
+		2B84653F2CDCCADE005EAB30 /* EditReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84653E2CDCCADE005EAB30 /* EditReminderView.swift */; };
+		2B8465422CDCCDCE005EAB30 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8465412CDCCDCE005EAB30 /* TripsView.swift */; };
+		2B8465442CDCCDF7005EAB30 /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8465432CDCCDF7005EAB30 /* TripsViewModel.swift */; };
+		2B8465462CDCCE18005EAB30 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8465452CDCCE18005EAB30 /* Trip.swift */; };
+		2B8465482CDCD05D005EAB30 /* NewTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8465472CDCD05D005EAB30 /* NewTrip.swift */; };
+		2B84654A2CDCD2E9005EAB30 /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8465492CDCD2E9005EAB30 /* TripCell.swift */; };
+		2B84654C2CDCD37E005EAB30 /* EditStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B84654B2CDCD37E005EAB30 /* EditStopView.swift */; };
 		2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6712CCFAD3F00B39110 /* app1021App.swift */; };
 		2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3F6732CCFAD3F00B39110 /* ContentView.swift */; };
 		2BA3F6762CCFAD4100B39110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3F6752CCFAD4100B39110 /* Assets.xcassets */; };
@@ -45,6 +60,21 @@
 		2B514F462CD3A1CF004A34A6 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		2B514F482CD3A608004A34A6 /* AddContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContacts.swift; sourceTree = "<group>"; };
 		2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		2B514F5C2CD8A2FD004A34A6 /* MaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceView.swift; sourceTree = "<group>"; };
+		2B514F632CDA2BE6004A34A6 /* MaintenanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewModel.swift; sourceTree = "<group>"; };
+		2B514F652CDA2C2A004A34A6 /* Accessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessory.swift; sourceTree = "<group>"; };
+		2B514F682CDA3D0D004A34A6 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		2B514F6A2CDA3D6E004A34A6 /* RemindersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewModel.swift; sourceTree = "<group>"; };
+		2B514F6C2CDA3D95004A34A6 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		2B514F6E2CDA429E004A34A6 /* RemainderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderCell.swift; sourceTree = "<group>"; };
+		2B84653C2CDCBC72005EAB30 /* NewRemainderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRemainderView.swift; sourceTree = "<group>"; };
+		2B84653E2CDCCADE005EAB30 /* EditReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderView.swift; sourceTree = "<group>"; };
+		2B8465412CDCCDCE005EAB30 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		2B8465432CDCCDF7005EAB30 /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		2B8465452CDCCE18005EAB30 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		2B8465472CDCD05D005EAB30 /* NewTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrip.swift; sourceTree = "<group>"; };
+		2B8465492CDCD2E9005EAB30 /* TripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCell.swift; sourceTree = "<group>"; };
+		2B84654B2CDCD37E005EAB30 /* EditStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStopView.swift; sourceTree = "<group>"; };
 		2BA3F66E2CCFAD3F00B39110 /* app1021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app1021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA3F6712CCFAD3F00B39110 /* app1021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app1021App.swift; sourceTree = "<group>"; };
 		2BA3F6732CCFAD3F00B39110 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +104,9 @@
 			children = (
 				2B514F322CD271E0004A34A6 /* MotorcycleViewModel.swift */,
 				2B514F442CD3A1B1004A34A6 /* RepairsViewModel.swift */,
+				2B514F632CDA2BE6004A34A6 /* MaintenanceViewModel.swift */,
+				2B514F6A2CDA3D6E004A34A6 /* RemindersViewModel.swift */,
+				2B8465432CDCCDF7005EAB30 /* TripsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -81,6 +114,9 @@
 		2B514F2A2CD268CC004A34A6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B8465402CDCCDC1005EAB30 /* Trips */,
+				2B514F672CDA3D04004A34A6 /* Reminders */,
+				2B514F5B2CD8A2F3004A34A6 /* Maintenance */,
 				2B514F3F2CD39ED3004A34A6 /* Repair */,
 				2B514F3C2CD2870C004A34A6 /* SettingsView */,
 				2B514F2C2CD26990004A34A6 /* NavigationView.swift */,
@@ -94,6 +130,9 @@
 			children = (
 				2B514F302CD270DC004A34A6 /* Motorcycle.swift */,
 				2B514F462CD3A1CF004A34A6 /* Contact.swift */,
+				2B514F6C2CDA3D95004A34A6 /* Reminder.swift */,
+				2B514F652CDA2C2A004A34A6 /* Accessory.swift */,
+				2B8465452CDCCE18005EAB30 /* Trip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +171,36 @@
 				2B514F4B2CD3AEE8004A34A6 /* ContactCell.swift */,
 			);
 			path = Repair;
+			sourceTree = "<group>";
+		};
+		2B514F5B2CD8A2F3004A34A6 /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F5C2CD8A2FD004A34A6 /* MaintenanceView.swift */,
+			);
+			path = Maintenance;
+			sourceTree = "<group>";
+		};
+		2B514F672CDA3D04004A34A6 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				2B514F682CDA3D0D004A34A6 /* RemindersView.swift */,
+				2B514F6E2CDA429E004A34A6 /* RemainderCell.swift */,
+				2B84653C2CDCBC72005EAB30 /* NewRemainderView.swift */,
+				2B84653E2CDCCADE005EAB30 /* EditReminderView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		2B8465402CDCCDC1005EAB30 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				2B8465412CDCCDCE005EAB30 /* TripsView.swift */,
+				2B8465472CDCD05D005EAB30 /* NewTrip.swift */,
+				2B8465492CDCD2E9005EAB30 /* TripCell.swift */,
+				2B84654B2CDCD37E005EAB30 /* EditStopView.swift */,
+			);
+			path = Trips;
 			sourceTree = "<group>";
 		};
 		2BA3F6652CCFAD3F00B39110 = {
@@ -300,20 +369,35 @@
 			files = (
 				2B514F2D2CD26990004A34A6 /* NavigationView.swift in Sources */,
 				2BA3F6742CCFAD3F00B39110 /* ContentView.swift in Sources */,
+				2B514F5D2CD8A2FD004A34A6 /* MaintenanceView.swift in Sources */,
 				2B514F372CD27717004A34A6 /* NewMotorcycleView.swift in Sources */,
+				2B514F6D2CDA3D95004A34A6 /* Reminder.swift in Sources */,
 				2B514F452CD3A1B1004A34A6 /* RepairsViewModel.swift in Sources */,
 				2B514F432CD39FE7004A34A6 /* ContactsView.swift in Sources */,
 				2BA3F6722CCFAD3F00B39110 /* app1021App.swift in Sources */,
+				2B514F692CDA3D0D004A34A6 /* RemindersView.swift in Sources */,
+				2B514F6B2CDA3D6E004A34A6 /* RemindersViewModel.swift in Sources */,
 				2B514F2F2CD26D3A004A34A6 /* MotoView.swift in Sources */,
+				2B8465422CDCCDCE005EAB30 /* TripsView.swift in Sources */,
 				2B514F412CD39EE8004A34A6 /* RepairView.swift in Sources */,
 				2B514F312CD270DC004A34A6 /* Motorcycle.swift in Sources */,
+				2B84653D2CDCBC72005EAB30 /* NewRemainderView.swift in Sources */,
 				2B514F4C2CD3AEE8004A34A6 /* ContactCell.swift in Sources */,
+				2B84654A2CDCD2E9005EAB30 /* TripCell.swift in Sources */,
 				2BA3F68F2CCFC3E400B39110 /* TabUIView.swift in Sources */,
+				2B8465482CDCD05D005EAB30 /* NewTrip.swift in Sources */,
+				2B514F6F2CDA429E004A34A6 /* RemainderCell.swift in Sources */,
+				2B514F642CDA2BE6004A34A6 /* MaintenanceViewModel.swift in Sources */,
+				2B8465462CDCCE18005EAB30 /* Trip.swift in Sources */,
 				2B514F492CD3A608004A34A6 /* AddContacts.swift in Sources */,
 				2BA3F6892CCFAEF400B39110 /* LoaderView.swift in Sources */,
 				2BA3F6852CCFAEDF00B39110 /* ReOnboardingUIView.swift in Sources */,
 				2B514F3A2CD27CBD004A34A6 /* ImagePicker.swift in Sources */,
 				2BA3F6872CCFAEEB00B39110 /* UsOnboardingUIView.swift in Sources */,
+				2B514F662CDA2C2A004A34A6 /* Accessory.swift in Sources */,
+				2B84654C2CDCD37E005EAB30 /* EditStopView.swift in Sources */,
+				2B8465442CDCCDF7005EAB30 /* TripsViewModel.swift in Sources */,
+				2B84653F2CDCCADE005EAB30 /* EditReminderView.swift in Sources */,
 				2B514F332CD271E0004A34A6 /* MotorcycleViewModel.swift in Sources */,
 				2B514F3E2CD2871A004A34A6 /* SettingsView.swift in Sources */,
 				2B514F472CD3A1CF004A34A6 /* Contact.swift in Sources */,
@@ -453,6 +537,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app1021/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mel Motor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dias.app1021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orh.m3lm0t0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -486,6 +571,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = app1021/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mel Motor";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -496,7 +582,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dias.app1021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orh.m3lm0t0r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

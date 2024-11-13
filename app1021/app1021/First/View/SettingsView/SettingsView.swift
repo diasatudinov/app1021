@@ -54,7 +54,7 @@ struct SettingsView: View {
     }
     
     func shareApp() {
-        guard let url = URL(string: "https://itunes.apple.com/app/id6737277432") else { return }
+        guard let url = URL(string: "https://itunes.apple.com/app/id6737912810") else { return }
         let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
         
         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
@@ -68,7 +68,7 @@ struct SettingsView: View {
     }
     
     func openUsagePolicy() {
-        guard let url = URL(string: "https://www.termsfeed.com/live/bea1d41e-d427-40cf-8ad3-e4cb19caca32") else { return }
+        guard let url = URL(string: "https://www.termsfeed.com/live/037a13df-19f8-46de-82ae-db8ea192d5ff") else { return }
         if UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
